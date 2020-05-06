@@ -8,7 +8,8 @@ Jeu d'échec JS
 - installer **Git** : `choco install git` dans powershell(admin)
 - installer **Nodejs** : `choco install nodejs` dans powershell(admin)
 - installer **yarn** : `choco install yarn` dans powershell(admin)
-- installer l'extension **Prettier** sur **_VScode_**
+- installer l'extension **Prettier** sur **_VScode_** : Ctrl + shift + x : chercher prettier
+- installer l'extension **eslint** sur **_VScode_** :Ctrl + shift + x : chercher eslint
 - créer un compte **Github**
 - créer une clée **SSH** : `ssh-keygen` dans le CMD(ou powershell)
 - uploader la clée **ssh** sur github dans les paramètres(compte github) : `.ssh/id_rsa.pub`
