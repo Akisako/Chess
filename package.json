@@ -1,0 +1,15 @@
+{
+  "name": "Chess",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Akisako/Chess.git",
+  "author": "Akisako <46268842+Akisako@users.noreply.github.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.0.5",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "parcel": "^2.0.0-alpha.3.2"
+  }
+}
