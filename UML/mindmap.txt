@@ -1,0 +1,45 @@
+@startmindmap
+
+* CK Chess
+
+** règle du jeu
+** dessin plateau
+***: lettre et chiffre aux 
+bords du plateau;
+
+**: images de pièces 
+2 couleurs;
+*** pions
+*** tours
+*** chevaux
+*** fous
+*** roi
+*** reine
+
+** choix de la couleur des pièces
+*** blanc
+*** noir
+
+left side
+
+** timer
+**: écran fin de partie qui
+précise qui a gagné;
+** hébergement "now.sh"
+
+** langage de prog
+*** TS
+*** HTML
+*** CSS
+*** JSON
+
+** Interface web 
+*** bouton charger
+** joueur vs joueur 
+*** à tour de rôle sur le même ordinateur
+** enregistrement de partie
+***: se fait automatiquement à chaque coups
+dans le cach;
+** VS code
+
+@endmindmap

@@ -1,0 +1,14 @@
+@startuml
+
+:joueur:
+rectangle site{
+:joueur: --> (charger une partie) : clique sur le bouton
+  rectangle jeu{
+    :joueur: --> (déplacer les pièces) : clique sur le bouton nouvelle partie
+
+    :joueur: --> (sauvegarde de partie) : clique sur le bouton
+  }
+}
+
+
+@enduml
