@@ -1,4 +1,9 @@
-export let creerAffichage = function (canvas: HTMLCanvasElement) {
+import { PieceObject } from "./piece";
+
+export let createDisplay = function (
+    canvas: HTMLCanvasElement,
+    piece: PieceObject
+) {
     canvas.width = 500;
     canvas.height = canvas.width;
     const TAILLE_GRILLE = 8;
@@ -25,5 +30,6 @@ export let creerAffichage = function (canvas: HTMLCanvasElement) {
             }
         });
     });
+    ctx.drawImage(piece.queen, 0, 0, 60, 60);
     return {};
 };
