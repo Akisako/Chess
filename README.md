@@ -14,7 +14,8 @@ Jeu d'échec JS
 - créer une clée **SSH** : `ssh-keygen` dans le CMD(ou powershell)
 - uploader la clée **ssh** sur github dans les paramètres(compte github) : `.ssh/id_rsa.pub`
 - créer une fork du **repository**
-- cloner votre fork avec `git clone git@github.com:(Username)/Chess.git`
-- ouvrir le clone dans **_VScode_**
+- créer un dossier pour le projet : **_Chess_**
+- ouvrir le dossier dans **_VScode_**
+- cloner votre fork avec `git clone git@github.com:(Username)/Chess.git .` dans le terminal **_VScode_**
 - exécuter `yarn install` dans terminal **_VScode_**
 - exécuter `yarn parcel src/index.html` ""
