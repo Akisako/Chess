@@ -1,13 +1,12 @@
 @startuml
 
 :joueur:
-rectangle site{
-:joueur: --> (charger une partie) : clique sur le bouton
-  rectangle jeu{
-    :joueur: --> (déplacer les pièces) : clique sur le bouton nouvelle partie
-
-    :joueur: --> (sauvegarde de partie) : clique sur le bouton
-  }
+:joueur 2:
+rectangle ck-chess{
+:joueur: --> (charger une partie) : permet de reprendre une partie là où elle s'était arrêté
+:joueur: --> (jeu d'échec) : joue chacun son tour
+:joueur 2: ---> (jeu d'échec) : joue chacun son tour
+(jeu d'échec) --> (charger une partie) : enregistre la partie automatiquement à chaque coup
 }
 
 

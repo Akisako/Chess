@@ -1,0 +1,62 @@
+@startuml
+|client|
+start
+:clique sur charger une partie;
+
+if (si n'a pas de partie enregistré) then
+  -[#blue]->
+  :rien ne se passe;
+
+
+
+
+|ck-chess|
+else
+  -[#black]->
+  :Sinon, reprend la partie là où elle en était;
+
+endif
+|client|
+:clique sur nouvelle partie;
+
+|ck-chess|
+:met en place les pièces et l'échiquier;
+
+|client|
+:le joueur choisi sa couleur;
+
+|ck-chess|
+:valide, fait commencer la partie
+et enclenche le timer;
+
+|client|
+repeat :tour du joueur;
+  if (si le joueur ne bouge pas une pièce dans le tenmps impartit) then
+    -[#blue]->
+    :son tour est passé;
+
+  else
+    -[#black]->
+    :déplace la pièce choisie dans la case choisie;
+
+  |ck-chess|
+  :enregistre le coup;
+  endif
+  |ck-chess|
+  :vérifie un joueur est en échec;
+
+  |client|
+  if (si joueur mit en échec) then
+    ->
+    |ck-chess|
+    :regarde qui est le gagnant;
+
+    |client|
+    :écran de fin s'affiche indiquant le gagnant;
+    stop
+  
+  else
+    ->
+endif
+  repeat while(la partie continue)
+@enduml

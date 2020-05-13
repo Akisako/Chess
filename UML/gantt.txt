@@ -1,0 +1,11 @@
+@startuml
+Project starts the 7 of May 2020
+[prise en main des outils] lasts 10 days
+--phase de création--
+[création du projet béta] lasts 15 days
+[création du projet béta] starts at [prise en main des outils]'s end
+--phase vérification et peaufinement--
+[finition] lasts 5 days
+[finition] starts at [création du projet béta]'s end
+[projet terminé] happens at [finition]'s end
+@enduml
