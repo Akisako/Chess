@@ -1,6 +1,6 @@
 # Chess
 
-Jeu d'échec JS
+Jeu d'échec en TS, HTML, CSS et JS
 
 ## Contribuer
 
