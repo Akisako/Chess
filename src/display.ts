@@ -30,6 +30,6 @@ export let createDisplay = function (
             }
         });
     });
-    ctx.drawImage(piece.queen, 0, 0, 60, 60);
+    ctx.drawImage(piece.queen, 188, 440, 60, 60);
     return {};
 };

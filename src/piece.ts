@@ -5,6 +5,7 @@ import queenUrl from "../asset/piece/queen.png";
 
 export interface PieceObject {
     queen: HTMLImageElement;
+
     // écrire toutes les autres pièces à la suite
 }
 
