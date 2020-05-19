@@ -46,14 +46,14 @@ export let createDisplay = function (
     ctx.drawImage(piece.cheval, 63, 440, 60, 60);
     ctx.drawImage(piece.bcheval, 375.5, 0, 60, 60);
     ctx.drawImage(piece.bcheval, 63, 0, 60, 60);
-    ctx.drawImage(piece.bpion, 0, 62.5, 60, 60);
-    ctx.drawImage(piece.bpion, 62.5, 62.5, 60, 60);
-    ctx.drawImage(piece.bpion, 125, 62.5, 60, 60);
-    ctx.drawImage(piece.bpion, 187.5, 62.5, 60, 60);
-    ctx.drawImage(piece.bpion, 250, 62.5, 60, 60);
-    ctx.drawImage(piece.bpion, 312.5, 62.5, 60, 60);
-    ctx.drawImage(piece.bpion, 375, 62.5, 60, 60);
-    ctx.drawImage(piece.bpion, 437.5, 62.5, 60, 60);
+    ctx.drawImage(piece.bpion, 0.5, 62.5, 60, 60);
+    ctx.drawImage(piece.bpion, 63, 62.5, 60, 60);
+    ctx.drawImage(piece.bpion, 125.5, 62.5, 60, 60);
+    ctx.drawImage(piece.bpion, 188, 62.5, 60, 60);
+    ctx.drawImage(piece.bpion, 250.5, 62.5, 60, 60);
+    ctx.drawImage(piece.bpion, 313, 62.5, 60, 60);
+    ctx.drawImage(piece.bpion, 375.5, 62.5, 60, 60);
+    ctx.drawImage(piece.bpion, 438, 62.5, 60, 60);
 
     return {};
 };
