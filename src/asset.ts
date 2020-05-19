@@ -22,6 +22,8 @@ import chevalUrl from "../asset/piece/cheval.png";
 import bchevalUrl from "../asset/piece/bcheval.png";
 // @ts-ignore
 import bpionUrl from "../asset/piece/bpion.png";
+// @ts-ignore
+import pionUrl from "../asset/piece/pion.png";
 
 export interface PieceObject {
     reine: HTMLImageElement;
@@ -36,6 +38,7 @@ export interface PieceObject {
     bcheval: HTMLImageElement;
     pion: HTMLImageElement;
     bpion: HTMLImageElement;
+    pion: HTMLImageElement;
     // écrire toutes les autres pièces à la suite
 }
 
@@ -52,6 +55,7 @@ export let getPieceObject = async (): Promise<PieceObject> => {
         cheval: loadImage(chevalUrl),
         bcheval: loadImage(bchevalUrl),
         bpion: loadImage(bpionUrl),
+        pion: loadImage(pionUrl),
         // écrire toutes les autres pièces à la suite
     });
 };

@@ -55,5 +55,14 @@ export let createDisplay = function (
     ctx.drawImage(piece.bpion, 375.5, 62.5, 60, 60);
     ctx.drawImage(piece.bpion, 438, 62.5, 60, 60);
 
+    ctx.drawImage(piece.pion, 0.5, 375, 60, 60);
+    ctx.drawImage(piece.pion, 63, 375, 60, 60);
+    ctx.drawImage(piece.pion, 125.5, 375, 60, 60);
+    ctx.drawImage(piece.pion, 188, 375, 60, 60);
+    ctx.drawImage(piece.pion, 250.5, 375, 60, 60);
+    ctx.drawImage(piece.pion, 313, 375, 60, 60);
+    ctx.drawImage(piece.pion, 375.5, 375, 60, 60);
+    ctx.drawImage(piece.pion, 438, 375, 60, 60);
+
     return {};
 };
