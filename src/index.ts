@@ -1,6 +1,6 @@
 import "regenerator-runtime/runtime";
 import { createDisplay } from "./display";
-import { getPieceObject } from "./piece";
+import { getPieceObject } from "./asset";
 
 let h1 = document.createElement("h1");
 h1.textContent = document.title;

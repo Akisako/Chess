@@ -1,0 +1,46 @@
+@import "./font.css";
+
+canvas {
+    background-color: beige;
+    margin: 0 auto;
+    border: 1.5em solid #322;
+    display: block;
+}
+
+h1 {
+    padding: 10px 45px;
+    animation: wheelHueColor 10s infinite;
+}
+@keyframes wheelHueColor {
+    from,
+    to {
+        color: hsl(0, 100%, 50%);
+    }
+    10% {
+        color: rgb(251, 255, 6);
+    }
+    20% {
+        color: hsl(36, 100%, 50%);
+    }
+    30% {
+        color: hsl(72, 100%, 50%);
+    }
+    40% {
+        color: hsl(108, 100%, 50%);
+    }
+    50% {
+        color: hsl(144, 100%, 50%);
+    }
+    60% {
+        color: hsl(180, 100%, 50%);
+    }
+    70% {
+        color: hsl(216, 100%, 50%);
+    }
+    80% {
+        color: hsl(252, 100%, 51%);
+    }
+    90% {
+        color: hsl(288, 100%, 50%);
+    }
+}
