@@ -1,16 +1,13 @@
 @import "./font.css";
 
 canvas {
+    position: sticky;
     background-color: beige;
     margin: 0 auto;
     border: 1.5em solid #322;
     display: block;
 }
 
-h1 {
-    padding: 10px 45px;
-    animation: wheelHueColor 10s infinite;
-}
 @keyframes wheelHueColor {
     from,
     to {
@@ -43,4 +40,19 @@ h1 {
     90% {
         color: hsl(288, 100%, 50%);
     }
+}
+
+.container {
+    column-count: 3;
+    column-rule-color: blueviolet;
+}
+
+.colonnes {
+    background: linear-gradient(180deg, #b4a0c7 0, #fcffcf 90%) no-repeat 50%,
+        linear-gradient(180deg, #8a6399, #685f91);
+    background-size: 40% 100%, 100% 100%;
+}
+
+h1 {
+    display: none;
 }
