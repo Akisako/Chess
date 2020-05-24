@@ -1,3 +1,6 @@
+/*
+
+
 // delayName :: (k, Promise a) -> Promise (k, a)
 let delayName = ([name, promise]) => promise.then((result) => [name, result]);
 
@@ -10,3 +13,4 @@ export let promiseObjectAll = <T>(object: PromiseValues<T>): Promise<T> => {
     let promiseList = Object.entries(object).map(delayName);
     return Promise.all(promiseList).then(Object.fromEntries);
 };
+*/

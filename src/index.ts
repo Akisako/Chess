@@ -1,3 +1,4 @@
+/*
 import "regenerator-runtime/runtime";
 import { createDisplay } from "./display";
 import { getPieceObject } from "./asset";
@@ -14,3 +15,4 @@ let main = async () => {
 };
 
 main();
+*/

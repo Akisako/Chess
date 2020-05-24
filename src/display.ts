@@ -1,3 +1,4 @@
+/*
 import { PieceObject } from "./asset";
 
 export let createDisplay = function (
@@ -66,3 +67,4 @@ export let createDisplay = function (
 
     return {};
 };
+*/

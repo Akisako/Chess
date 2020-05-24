@@ -1,3 +1,6 @@
+/*
+
+
 import { loadImage } from "./loadImage";
 import { promiseObjectAll } from "./util/promise";
 // @ts-ignore
@@ -59,3 +62,5 @@ export let getPieceObject = async (): Promise<PieceObject> => {
         // écrire toutes les autres pièces à la suite
     });
 };
+
+*/

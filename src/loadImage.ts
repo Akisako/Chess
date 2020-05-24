@@ -4,6 +4,8 @@
  *
  * @param url url of the image
  */
+/*
+
 export let loadImage = async (url: string): Promise<HTMLImageElement> => {
     let resolve;
 
@@ -19,3 +21,4 @@ export let loadImage = async (url: string): Promise<HTMLImageElement> => {
 
     return image;
 };
+*/
